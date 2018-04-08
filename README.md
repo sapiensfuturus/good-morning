@@ -103,7 +103,7 @@ Unit Tests
 
 We include unittest to troubleshoot your use of the library.  It's a simple command line process to run the test. Navigate to the base directory of `good-morning` and use the standard library `unittest` command line interface:
 
-    python -m unittest test/
+    python3 -m unittest2 tests/test*
     
 Output:
 
