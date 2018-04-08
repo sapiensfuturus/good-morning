@@ -45,7 +45,7 @@ Example of Downloading Financial data
     
 Different from the `KeyRatiosDownloader` class,  `kr_fins` now holds a dictionary containing the financials for the morningstar ticker [`AAPL`](http://financials.morningstar.com/ratios/r.html?t=AAPL&region=usa&culture=en-US). The financials **may differ** from company to company.
 
-    print (fins.keys())
+    print (kr_fins.keys())
     
 Output:
 
